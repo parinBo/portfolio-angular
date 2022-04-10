@@ -1,49 +1,94 @@
 <app-navbar></app-navbar>
 <section>
   <section id="sec1" @fadeInOut class="d-flex align-items-center" style="height: 670px;">
+    <img src="assets/bg.svg" style="position: absolute;left: 150px;" />
     <div class="container">
-      <div class="card mt-4 w-50 m-auto">
+      <div class="card mt-4 w-50 m-auto" style="border:solid 2px;box-shadow: 4px 10px;">
         <div class="card-body m-auto">
           <h2>Hello!</h2>
           <p style="line-height: 15px;"> My name is Parinya Thongtavee,you can call me Boss.</p>
           <p style="line-height: 15px;">I'm a web developer to design what are you want.</p>
           <p style="line-height: 15px;">Tell me if you are interested.</p>
+          <button class="btn" (click)="sec()">Contract</button>
         </div>
       </div>
     </div>
+    <img src="assets/peo.svg" style="position: absolute;" />
   </section>
   <section id="sec2" class="fade-in-section" style="height: 670px">
-    <div class="container" style="background-color: #FA5C65;height: 670px;border-radius: 10%;">
+    <div class="container">
       <div class="card mt-4 w-50 m-auto">
         <div class="card-body m-auto" style="font-size: larger;font-weight: bold;">
           Cons
         </div>
       </div>
-      <div class="circle-line" >
-        <div>
-          <div class="circle" style="margin-left: 100px;margin-right: 100px;">
+      <div class="circle-line ">
+        <div class="circle-group">
+          <div class="circle-cons m-auto">
             <i class="bi bi-hand-thumbs-up-fill" style="color: white;font-size: 60px;margin-left: 20px;"></i>
           </div>
           <span class="d-flex justify-content-center mt-2" style="color: white;font-size: larger;">Good quality</span>
-          <p class="d-flex justify-content-center" style="color: white;">The work is reviewed as assigned.</p>
+          <p class="text-center" style="color: white;">The work is reviewed as assigned.</p>
         </div>
-        <div class="circle" style="margin-left: 100px;margin-right: 100px;">
+        <div class="circle-group">
+          <div class="circle-cons m-auto">
+            <i class="bi bi-pencil-square" style="color: white;font-size: 60px;margin-left: 20px;"></i>
+          </div>
+          <span class="d-flex justify-content-center mt-2" style="color: white;font-size: larger;">Edit Free</span>
+          <p class="text-center" style="color: white;">Free edits if it takes less than 1 hour..</p>
         </div>
-        <div class="circle" style="margin-left: 100px;margin-right: 100px;">
+        <div class="circle-group">
+          <div class="circle-cons m-auto">
+            <i class="bi bi-hand-thumbs-up-fill" style="color: white;font-size: 60px;margin-left: 20px;"></i>
+          </div>
+          <span class="d-flex justify-content-center mt-2" style="color: white;font-size: larger;">Good quality</span>
+          <p class="text-center" style="color: white;">The work is reviewed as assigned.</p>
+        </div>
+        <div class="circle-group">
+          <div class="circle-cons m-auto">
+            <i class="bi bi-hand-thumbs-up-fill" style="color: white;font-size: 60px;margin-left: 20px;"></i>
+          </div>
+          <span class="d-flex justify-content-center mt-2" style="color: white;font-size: larger;">Good quality</span>
+          <p class="text-center" style="color: white;">The work is reviewed as assigned.</p>
         </div>
       </div>
-
     </div>
   </section>
   <section id="sec3" class="fade-in-section" style="height: 670px;">
-    <div class="container" style="background-color: #FD9A28;height: 670px;border-radius: 10%;">
+    <div class="container">
       <div class="card mt-4 w-50 m-auto">
         <div class="card-body m-auto" style="font-size: larger;font-weight: bold;">
           Props
         </div>
       </div>
+      <div class="circle-line ">
+        <div class="circle-group">
+          <div class="circle-props m-auto">
+            <i class="bi bi-alarm" style="color: white;font-size: 60px;margin-left: 20px;"></i>
+          </div>
+          <span class="d-flex justify-content-center mt-2" style="color: white;font-size: larger;">Time Mismatch</span>
+          <p class="text-center" style="color: white;">The job may not be performed <br>during normal hours.</p>
+        </div>
+        <div class="circle-group">
+          <div class="circle-props m-auto">
+            <i class="bi bi-pencil-square" style="color: white;font-size: 60px;margin-left: 20px;"></i>
+          </div>
+          <span class="d-flex justify-content-center mt-2" style="color: white;font-size: larger;">Edit Free</span>
+          <p class="text-center" style="color: white;">Free edits if it takes less than 1 hour.</p>
+        </div>
+        <div class="circle-group">
+          <div class="circle-props m-auto">
+            <i class="bi bi-hand-thumbs-up-fill" style="color: white;font-size: 60px;margin-left: 20px;"></i>
+          </div>
+          <span class="d-flex justify-content-center mt-2" style="color: white;font-size: larger;">Good quality</span>
+          <p class="text-center" style="color: white;">The work is reviewed as assigned.</p>
+        </div>
+      </div>
     </div>
   </section>
-  <section id="sec3" style="height: 100px">
+  <section id="sec4" class="d-flex" style=" background-color: #2e5ec0 ;color: white;height: 100px;">
+    <div class="container d-flex">
+      <p class="align-items-center d-flex">Contract: </p>
+    </div>
   </section>
 </section>
